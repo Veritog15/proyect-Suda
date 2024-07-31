@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    align-items: center;
+    background-color: rgb(142, 170, 76); 
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.acerca-de {
+    display: flex;
+    gap: 30px;
+}
+
+.acerca-de div {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}

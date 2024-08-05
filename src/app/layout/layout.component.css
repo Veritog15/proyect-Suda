@@ -7,7 +7,7 @@
 }
 
 .logo img {
-    width: 70px;
+    width: 75px;
     height: auto; 
 }
 
@@ -18,10 +18,11 @@
 }
 
 .acerca-de div {
-    font-family: Arial, sans-serif;
+    font-family: 'IBM Plex Sans', Arial, sans-serif;
     font-size: 17px; 
     color: #f9f9f9;
     margin: 0 15px; 
+    font-weight: bold; 
 }
 
 .menu {
@@ -36,7 +37,7 @@
         display: block; 
     }
     .menu img {
-        width: 30px; 
+        width: 25px; 
         height: auto;
     }
 }

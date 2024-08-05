@@ -1,20 +1,42 @@
 .container {
     display: flex;
     align-items: center;
-    background-color: rgb(142, 170, 76); 
+    justify-content: space-between;
+    padding: 30px 30px;
+    background-color: #431308d6; 
 }
 
-.logo {
-    margin-right: 20px;
+.logo img {
+    width: 70px;
+    height: auto; 
 }
 
 .acerca-de {
     display: flex;
-    gap: 30px;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .acerca-de div {
     font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: black;
+    font-size: 17px; 
+    color: #f9f9f9;
+    margin: 0 15px; 
+}
+
+.menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .acerca-de {
+        display: none; 
+    }
+    .menu {
+        display: block; 
+    }
+    .menu img {
+        width: 30px; 
+        height: auto;
+    }
 }

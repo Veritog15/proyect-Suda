@@ -1,13 +1,21 @@
-.container {
+.container{
+    background-color: #734840e2; 
+    margin: 0; 
+    padding: 20px; 
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.MainContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 30px;
-    background-color: #431308d6; 
 }
 
 .logo img {
-    width: 75px;
+    width: 79px;
     height: auto; 
 }
 
@@ -37,7 +45,7 @@
         display: block; 
     }
     .menu img {
-        width: 25px; 
+        width: 23px; 
         height: auto;
     }
 }

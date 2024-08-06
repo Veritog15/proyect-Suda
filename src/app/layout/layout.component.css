@@ -1,5 +1,14 @@
 .container {
-    background-color: #4f4949; 
+    background-color: #2f2020; 
+    margin: 0; 
+    padding: 20px; 
+    min-height: 100vh; 
+    position: relative; 
+    overflow: hidden;
+}
+
+.SecondContainer {
+    background-color: #311a1a00;
     margin: 0; 
     padding: 20px; 
     min-height: 100vh; 
@@ -21,6 +30,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    pointer-events: none; 
 }
 
 .design-img {
@@ -29,39 +39,39 @@
 }
 
 .design1 {
-    top: 0.1%;
-    left: 2%;
-    width: 20%;
+    top: 0.1vh;
+    left: 2vw;
+    width: 20vw;
 }
 
 .design2 {
-    top: 0.3%;
-    left: 23%;
-    width: 62%;
+    top: 0.3vh;
+    left: 24vw;
+    width: 57vw;
 }
 
 .design3 {
-    top: 7%;
-    left: 15%;
-    width: 20%;
+    top: 15vh;
+    left: 15vw;
+    width: 20vw;
 }
 
 .design4 {
-    top: 15%;
-    right: 90%;
-    width: 10%;
+    top: 30vh;
+    left: 0.2vw;
+    width: 11vw;
 }
 
 .design5 {
-    bottom: 76%;
-    left: 69%;
-    width: 20%;
+    top: 13vh;
+    left: 75vw;
+    width: 15vw;
 }
 
 .design6 {
-    top: 15%;
-    left: 87%;
-    width: 13%;
+    top: 30vh;
+    left: 87vw;
+    width: 13vw;
 }
 
 .logo img {
@@ -97,5 +107,29 @@
     .menu img {
         width: 23px; 
         height: auto;
+    }
+
+    .design2,
+    .design3,
+    .design5 {
+        display: none;
+    }
+
+    .design1 {
+        top: 0.1vh;
+        left: -10vw;
+        width: 70vw; 
+    }
+    
+    .design4 {
+        top: 30vh; 
+        right: 80vw; 
+        width: 23vw; 
+    }
+    
+    .design6 {
+        top: 20vh; 
+        left: 70vw; 
+        width: 30vw; 
     }
 }

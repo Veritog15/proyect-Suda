@@ -1,21 +1,67 @@
-.container{
-    background-color: #734840e2; 
+.container {
+    background-color: #4f4949; 
     margin: 0; 
     padding: 20px; 
     min-height: 100vh; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
+    position: relative; 
+    overflow: hidden;
 }
 
 .MainContainer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    z-index: 1;
 }
 
-.desing{
-    margin: 20px
+.design {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.design-img {
+    position: absolute;
+    opacity: 0.3; 
+}
+
+.design1 {
+    top: 0.1%;
+    left: 2%;
+    width: 20%;
+}
+
+.design2 {
+    top: 0.3%;
+    left: 23%;
+    width: 62%;
+}
+
+.design3 {
+    top: 7%;
+    left: 15%;
+    width: 20%;
+}
+
+.design4 {
+    top: 15%;
+    right: 90%;
+    width: 10%;
+}
+
+.design5 {
+    bottom: 76%;
+    left: 69%;
+    width: 20%;
+}
+
+.design6 {
+    top: 15%;
+    left: 87%;
+    width: 13%;
 }
 
 .logo img {

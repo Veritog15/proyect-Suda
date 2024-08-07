@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { TextComponent } from '../../components/text/text.component';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [],
+  imports: [TextComponent],
   templateUrl: './navbar.component.html',
   styleUrl: './navbar.component.css'
 })

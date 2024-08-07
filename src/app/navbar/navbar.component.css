@@ -1,6 +1,6 @@
 .container {
     background-color: #2f2020; 
-    margin: 0; 
+    margin: -10px; 
     padding: 20px; 
     min-height: 100vh; 
     position: relative; 
@@ -134,4 +134,17 @@
     }
 }
 
+.button {
+    position: absolute;
+    right: 45.5vw; 
+    bottom: 32vh; 
+    text-align: center;
+    z-index: 2; 
+}
 
+@media (max-width: 768px) {
+    .button {
+        right: 37vw; 
+        bottom: 56.5vh; 
+    }
+}

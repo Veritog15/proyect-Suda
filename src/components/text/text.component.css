@@ -7,18 +7,21 @@ body {
 
 .hero {
     text-align: center;
-    padding: 80px 20px; /* Reduce el padding superior para que el contenido se mueva hacia arriba */
+    padding: 80px 20px; 
 }
 
 .hero h1 {
-    font-size: 2.5em;
+    font-size: 2em;
     margin-bottom: 25px;
-    margin-top: 50px; /* Ajusta el espacio superior del título para que suba más */
-    font-style: italic; /* Aplica el estilo cursivo al encabezado */
+    margin-top: 40px; 
+    font-style: italic; 
 }
 
 .hero p {
     font-size: 1.1em;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
 }
 
 .line-break {
@@ -27,6 +30,10 @@ body {
 
 @media (max-width: 768px) {
     .hero p {
+        font-size: 0.8em; 
+    }
+
+    .hero h1 {
         font-size: 1.5em; 
     }
 }

@@ -151,61 +151,287 @@
     width: 100.5%;
 }
 
+.card-info {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 20px;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    color: #fff;
+}
+
+.card-info h1 {
+    font-style: italic; 
+    margin: 0; 
+}
+
+.card-info p {
+    font-size: 12px; 
+    line-height: 1.5;
+    margin: 0; 
+}
+
+.card-image img {
+    width: 50%; 
+    height: auto;
+}
+
+.card-star {
+    position: absolute; 
+    bottom: 583px; 
+    left: 115px; 
+    align-items: center; 
+}
+
+.card-star img {
+    width: 22px; 
+    height: auto; 
+}
+
+.card-content {
+    position: relative; 
+}
+
+.card-info {
+    position: absolute; 
+    bottom: 500px; 
+    left: 130px; 
+}
+
+.card-image {
+    position: relative; 
+    bottom: 427px; 
+    left: 530px; 
+}
+
+.button2 {
+    position: absolute;
+    right: 75vw;
+    bottom: 73vh;
+    text-align: center;
+    z-index: 2;
+}
+
 .cards2 {
     position: relative;
     width: 49.9%;     
     height: auto; 
-    margin-top: -425px; 
+    margin-top: -645px; 
     left: 30px;
+}
+
+.card-info2{
+    position: relative;
+    bottom: 370px;
+    left: 30px;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    color: #fff;
+}
+
+.card-info2 h1 {
+    font-size: 24px; 
+    text-align: center; 
+    font-style: italic;
+    left: 30px;
+    line-height: 1.5;
+}
+
+.card-info2 p {
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 12px; 
+    text-align: center; 
 }
 
 .cards3 {
     position: relative;
     width: 49.9%;     
     height: auto; 
-    margin-top: -644px; 
+    margin-top: -755px; 
     left: 560px;
 }
+
+.card-info3{
+    position: relative;
+    bottom: 370px;
+    left: 30px;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    color: #fff;
+}
+
+.card-info3 h1 {
+    font-size: 24px; 
+    text-align: center; 
+    font-style: italic;
+    left: 30px;
+    line-height: 1.5;
+}
+
+.card-info3 p {
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 12px; 
+    text-align: center; 
+}
+
 .cards4 {
     position: relative;
     width: 32.6%;     
     height: auto; 
-    margin-top: -425px; 
+    margin-top: -540px; 
     left: 41px;
 }
+.card-info4{
+    position: relative;
+    bottom: 370px;
+    left: 30px;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    color: #fff;
+}
+
+.card-info4 h1 {
+    font-size: 24px; 
+    text-align: center; 
+    font-style: italic;
+    left: 30px;
+    line-height: 1.5;
+}
+
 .cards5 {
     position: relative;
     width: 33%;     
     height: auto; 
-    margin-top: -644px; 
+    margin-top: -712px; 
     left: 393px;
 }
+
+.card-info5{
+    position: relative;
+    bottom: 370px;
+    left: 30px;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    color: #fff;
+}
+
+.card-info5 h1 {
+    font-size: 24px; 
+    text-align: center; 
+    font-style: italic;
+    left: 30px;
+    line-height: 1.5;
+}
+
 .cards6 {
     position: relative;
     width: 32.6%;     
     height: auto; 
-    margin-top: -644px; 
+    margin-top: -712px; 
     left: 750px;
 }
+
+.card-info6{
+    position: relative;
+    bottom: 370px;
+    left: 30px;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    color: #fff;
+}
+
+.card-info6 h1 {
+    font-size: 24px; 
+    text-align: center; 
+    font-style: italic;
+    left: 30px;
+    line-height: 1.5;
+}
+
 .cards7{
     position: relative;
     width: 49.9%;     
     height: auto; 
-    margin-top: -330px; 
+    margin-top: -400px; 
     left: 30px;
 }
+
+.card-info7{
+    position: relative;
+    bottom: 370px;
+    left: 30px;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    color: #fff;
+}
+
+.card-info7 h1 {
+    font-size: 24px; 
+    text-align: center; 
+    font-style: italic;
+    left: 30px;
+    line-height: 1.5;
+}
+
+.card-info7 p {
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 12px; 
+    text-align: center; 
+}
+
 .cards8{
     position: relative;
     width: 49.9%;     
     height: auto; 
-    margin-top: -645px; 
+    margin-top: -755px; 
     left: 560px;
 }
+
+.card-info8{
+    position: relative;
+    bottom: 370px;
+    left: 30px;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    color: #fff;
+}
+
+.card-info8 h1 {
+    font-size: 24px; 
+    text-align: center; 
+    font-style: italic;
+    left: 30px;
+    line-height: 1.5;
+}
+
+.card-info8 p {
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 12px; 
+    text-align: center; 
+}
+
 .cards9{
     position: relative;
-    margin-top: -425px; 
+    margin-top: -540px; 
     width: 100.5%;
 }
+
+.card-info9{
+    position: relative;
+    bottom: 370px;
+    left: 30px;
+    font-family: 'IBM Plex Sans', sans-serif; 
+    color: #fff;
+}
+
+.card-info9 h1 {
+    font-size: 24px; 
+    text-align: center; 
+    font-style: italic;
+    left: 30px;
+    line-height: 1.5;
+}
+
+.card-info9 p {
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-size: 12px; 
+    text-align: center; 
+}
+
 
 @media (max-width: 768px) {
     .cards1 {
@@ -243,22 +469,24 @@
         margin-top: -690px;
         left: 2px; 
     }
-    .cards7 {
+    .cards6 {
         width: 100%;
         height: auto;
         margin-top: -690px;
         left: 2px; 
     }
-    .cards8 {
-        width: 100%;
-        height: auto;
-        margin-top: -690px;
-        left: 2px; 
-    }
-    .cards9 {
-        width: 100%;
-        height: auto;
-        margin-top: -690px;
-        left: 2px; 
-    }
+}
+
+.subTitle {
+    position: absolute; 
+    top: 1160px; 
+    left: 150px; 
+    font-family: 'IBM Plex Sans', sans-serif; 
+    font-style: italic; 
+}
+
+.subTitle h1 {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #fff; 
 }

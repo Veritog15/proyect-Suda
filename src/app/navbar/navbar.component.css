@@ -179,13 +179,13 @@
 
 .card-star {
     position: absolute; 
-    bottom: 583px; 
-    left: 115px; 
+    bottom: 579px; 
+    left: 120px; 
     align-items: center; 
 }
 
 .card-star img {
-    width: 22px; 
+    width: 21.5px; 
     height: auto; 
 }
 

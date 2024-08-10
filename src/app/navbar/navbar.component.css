@@ -213,6 +213,20 @@
     z-index: 2;
 }
 
+.subTitle {
+    position: absolute; 
+    top: 1160px; 
+    left: 150px; 
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-style: italic; 
+}
+
+.subTitle h1 {
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #fff; 
+}
+
 .cards2 {
     position: relative;
     width: 49.9%;     
@@ -430,23 +444,6 @@
     font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
     font-size: 12px; 
     text-align: center; 
-}
-
-
-
-
-.subTitle {
-    position: absolute; 
-    top: 1160px; 
-    left: 150px; 
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-style: italic; 
-}
-
-.subTitle h1 {
-    font-size: 24px; 
-    font-weight: bold; 
-    color: #fff; 
 }
 
     

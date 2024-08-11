@@ -465,87 +465,214 @@
 }
 
 @media (max-width: 768px) {
-    /* Ajustes específicos para cada tarjeta */
+
     .cards1 {
-        margin-top: -900px;
-        width: 85vw; /* Ajuste personalizado para la carta 1 */
-        left: 2%;
+        top: -460px; 
+        width: 85vw;
+        left: 2%; 
     }
 
     .cards2 {
-        margin-top: -800px;
-        width: 85%;  /* Ajuste personalizado para la carta 2 */
-        left: 7.5%;
+        top: -860px;
+        width: 85vw;
+        left: 2%;
     }
 
     .cards3 {
-        margin-top: -700px;
-        width: 80%;  /* Ajuste personalizado para la carta 3 */
-        left: 10%;
+        bottom: 1001px;
+        width: 85vw;
+        left: 2%;
     }
 
     .cards4 {
-        margin-top: -600px;
-        width: 75%;  /* Ajuste personalizado para la carta 4 */
-        left: 12.5%;
+        bottom: 1357px;
+        width: 85vw;
+        left: 2%;
     }
 
     .cards5 {
-        margin-top: -500px;
-        width: 70%;  /* Ajuste personalizado para la carta 5 */
-        left: 15%;
+        bottom: 1456px;
+        width: 85vw;
+        left: 2%;
     }
 
     .cards6 {
-        margin-top: -400px;
-        width: 65%;  /* Ajuste personalizado para la carta 6 */
-        left: 17.5%;
+        bottom: 1554px;
+        width: 85vw;
+        left: 2%;
     }
 
     .cards7 {
-        margin-top: -300px;
-        width: 60%;  /* Ajuste personalizado para la carta 7 */
-        left: 20%;
+        bottom: 1870px;
+        width: 85vw;
+        left: 2%;
     }
 
     .cards8 {
-        margin-top: -200px;
-        width: 55%;  /* Ajuste personalizado para la carta 8 */
-        left: 22.5%;
+        bottom: 2010px;
+        width: 85vw;
+        left: 2%;
     }
 
     .cards9 {
-        margin-top: -100px;
-        width: 50%;  /* Ajuste personalizado para la carta 9 */
-        left: 25%;
+        bottom: 2365px;
+        width: 85vw;
+        left: 2%;
     }
 
-    /* Ajustes para el contenido de cada tarjeta */
+
     .card-info {
-        padding: 10px;
+        padding: 15px;
         text-align: left;
+        left: 50px;
+        font-size: 10px; 
+        color: #ffffff; 
+        bottom: 1245px;
     }
 
-    /* Ajustes específicos para el contenido de cada tarjeta */
     .card-info2 {
         padding: 15px;
+        color: #ffffff; 
+        left: 30px;
+        bottom: 570px;
+    }
+
+    .card-info2 h1 {
+        text-align: left; 
+        font-style: italic;
+        margin-bottom: 2px;
+    }
+
+    .card-info2 p {
+        font-size: 16px;
+        margin-top: 2px;
         text-align: left;
     }
 
     .card-info3 {
-        padding: 20px;
-        text-align: left
+        padding: 15px;
+        color: #ffffff; 
+        left: 30px;
+        bottom: 570px;
     }
 
-    /* Y así sucesivamente para cada tarjeta */
+    .card-info3 h1 {
+        text-align: left; 
+        font-style: italic;
+        margin-bottom: 2px;
+    }
 
-    /* Ajustes para la imagen en cada tarjeta */
+    .card-info3 p {
+        font-size: 16px;
+        margin-top: 2px;
+        text-align: left;
+    }
+
+    .card-info4 {
+        padding: 15px;
+        color: #ffffff; 
+        bottom: 520px;
+    }
+    .card-info4 h1 {
+        text-align: left; 
+        font-style: italic;
+    }
+
+    .card-info5 {
+        padding: 15px;
+        font-size: 14px; 
+        color: #ffffff;
+        bottom: 520px;
+    }
+
+    .card-info5 h1 {
+        text-align: left; 
+        font-style: italic;
+    }
+
+    .card-info6 {
+        padding: 15px;
+        text-align: left;
+        font-size: 14px;
+        color: #ffffff; 
+        bottom: 520px;
+    }
+
+    .card-info6 h1 {
+        text-align: left; 
+        font-style: italic;
+    }
+
+    .subTitle {
+        position: absolute; 
+        top: 1790px; 
+        left: 80px; 
+    }
+
+    .card-info7 {
+        padding: 15px;
+        color: #ffffff; 
+        left: 30px;
+        bottom: 570px;
+    }
+
+    .card-info7 h1 {
+        text-align: left; 
+        font-style: italic;
+        margin-bottom: 2px;
+    }
+
+    .card-info7 p {
+        font-size: 16px;
+        margin-top: 2px;
+        text-align: left;
+    }
+
+    .card-info8 {
+        padding: 15px; 
+        color: #ffffff; 
+        left: 30px;
+        bottom: 570px;
+    }
+
+    .card-info8 h1 {
+        text-align: left; 
+        font-style: italic;
+        margin-bottom: 2px;
+    }
+
+    .card-info8 p {
+        font-size: 16px;
+        margin-top: 2px;
+        text-align: left;
+    }
+    }
+
+    .card-info9 {
+        padding: 15px; 
+        color: #ffffff;
+        left: 30px;
+        bottom: 570px;
+    }
+
+    .card-info9 h1 {
+        text-align: left; 
+        font-style: italic;
+        margin-bottom: 2px;
+    }
+
+    .card-info9 p {
+        font-size: 16px;
+        margin-top: 2px;
+        text-align: left;
+    } 
+
     .card-image {
         position: relative;
-        bottom: 50px;
-        left: 0;
-        width: 50vw;
-        text-align: center;
+        top: -920px;
+        left: 200px;
+        width: 35vw;
+        height: 30vh;
     }
 
     .card-image .desktop {
@@ -554,19 +681,27 @@
 
     .card-image .mobile {
         display: block;
-        width: 100%; 
+        width: 30vw; 
         height: auto;
-        margin: 0 auto;
     }
 
+    .card-star {
+        position: relative; 
+        height: auto;
+        bottom: 1283px; 
+        left: 45px; 
+    }
 
-    /* Ajustes para el botón en cada tarjeta */
+    .card-star img {
+        width: 3vw; 
+        height: auto; 
+    }
+
     .button2 {
         position: relative;
-        right: 0;
-        bottom: 10vh;
-        transform: translateX(50%);
+        left: -70px;
+        bottom: 1200px;
         text-align: center;
         z-index: 2;
     }
-}
+

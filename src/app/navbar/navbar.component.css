@@ -164,6 +164,7 @@
 .card-info h1 {
     font-style: italic; 
     margin: 0; 
+    font-size: 25px;
 }
 
 .card-info p {
@@ -172,45 +173,21 @@
     margin: 0; 
 }
 
-.card-image img {
-    width: 50%; 
-    height: auto;
-}
-
-.card-star {
-    position: absolute; 
-    bottom: 579px; 
-    left: 120px; 
-    align-items: center; 
-}
-
-.card-star img {
-    width: 21.5px; 
-    height: auto; 
-}
-
 .card-content {
     position: relative; 
 }
 
 .card-info {
     position: absolute; 
-    bottom: 500px; 
+    bottom: 530px; 
     left: 130px; 
 }
 
-.card-image {
-    position: relative; 
-    bottom: 427px; 
-    left: 530px; 
-}
-
 .button2 {
-    position: absolute;
-    right: 75vw;
-    bottom: 73vh;
+    position: relative;
+    top: -500px; 
+    left: -350px;
     text-align: center;
-    z-index: 2;
 }
 
 .subTitle {
@@ -229,9 +206,9 @@
 
 .cards2 {
     position: relative;
-    width: 49.9%;     
+    width: 47vw;     
     height: auto; 
-    margin-top: -645px; 
+    margin-top: -678px; 
     left: 30px;
 }
 
@@ -259,7 +236,7 @@
 
 .cards3 {
     position: relative;
-    width: 49.9%;     
+    width: 47vw;      
     height: auto; 
     margin-top: -755px; 
     left: 560px;
@@ -422,47 +399,58 @@
     position: relative;
     margin-top: -540px; 
     width: 100.5%;
+
+    .card-info9{
+        position: relative;
+        top: -400px;
+        left: 100px;
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+        color: #fff;
+    }
+    
+    .card-info9 h1 {
+        font-size: 24px; 
+        text-align: left; 
+        font-style: italic;
+        left: 30px;
+        line-height: 1.5;
+    }
+    
+    .card-info9 p {
+        font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+        font-size: 12px; 
+        text-align: left; 
+
+    }
 }
 
-.card-info9{
-    position: relative;
-    bottom: 370px;
-    left: 30px;
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    color: #fff;
+.card-image img {
+    width: 47vw; 
+    height: auto;
+    top: 500px;
 }
 
-.card-info9 h1 {
-    font-size: 24px; 
-    text-align: center; 
-    font-style: italic;
-    left: 30px;
-    line-height: 1.5;
+.card-image {
+    position: relative; 
 }
 
-.card-info9 p {
-    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
-    font-size: 12px; 
-    text-align: center; 
-}
-
-
-.card-image .mobile {
-    display: none;
-    width: 50px;
+@media (min-width: 769px) {
+    .card-image {
+        bottom: 427px; 
+        left: 532px; 
+    }
 }
 
 @media (max-width: 768px) {
-    .card-image .desktop {
-        display: none;
+    .card-image {
+        bottom: 900px;  
+        left: 147px;  
     }
-
-    .card-image .mobile {
-        display: center;
-        width: 10%; 
-        margin: 0 auto; 
+    .card-image img{
+        width: 47vw;
+        height: auto;
     }
-
+}
 
 @media (max-width: 768px) {
 
@@ -473,53 +461,71 @@
     }
 
     .cards2 {
-        top: -860px;
+        top: -620px;
         width: 85vw;
         left: 2%;
     }
 
     .cards3 {
-        bottom: 1001px;
+        bottom: 760px;
         width: 85vw;
         left: 2%;
     }
 
     .cards4 {
-        bottom: 1357px;
+        bottom: 1115px;
         width: 85vw;
         left: 2%;
     }
 
     .cards5 {
-        bottom: 1456px;
+        bottom: 1212px;
         width: 85vw;
         left: 2%;
     }
 
     .cards6 {
-        bottom: 1554px;
+        bottom: 1310px;
         width: 85vw;
         left: 2%;
     }
 
     .cards7 {
-        bottom: 1870px;
+        bottom: 1600px;
         width: 85vw;
         left: 2%;
     }
 
     .cards8 {
-        bottom: 2010px;
+        bottom: 1743px;
         width: 85vw;
         left: 2%;
     }
 
     .cards9 {
-        bottom: 2365px;
+        bottom: 2100px; 
         width: 85vw;
         left: 2%;
-    }
 
+        .card-info9 {
+            padding: 15px;
+            color: #ffffff;
+            left: 30px;  
+            top: -570px; 
+        }
+    
+        .card-info9 h1 {
+            text-align: left;
+            font-style: italic;
+            margin-bottom: 2px;
+        }
+    
+        .card-info9 p {
+            font-size: 16px;
+            margin-top: 2px;
+            text-align: left;
+        }
+    }
 
     .card-info {
         padding: 15px;
@@ -527,7 +533,7 @@
         left: 50px;
         font-size: 10px; 
         color: #ffffff; 
-        bottom: 1245px;
+        bottom: 1040px;
     }
 
     .card-info2 {
@@ -646,49 +652,21 @@
         margin-top: 2px;
         text-align: left;
     }
-    }
+}
 
-    .card-info9 {
-        padding: 15px; 
-        color: #ffffff;
-        left: 30px;
-        bottom: 570px;
-    }
-
-    .card-info9 h1 {
-        text-align: left; 
-        font-style: italic;
-        margin-bottom: 2px;
-    }
-
-    .card-info9 p {
-        font-size: 16px;
-        margin-top: 2px;
-        text-align: left;
-    } 
-
-    .card-image {
+@media (max-width: 768px) {
+    .button2 { 
         position: relative;
-        top: -920px;
-        left: 200px;
-        width: 35vw;
-        height: 30vh;
-    }
-
-    .card-image .desktop {
-        display: none;
-    }
-
-    .card-image .mobile {
-        display: block;
-        width: 30vw; 
+        width: 50px;
         height: auto;
+        left: 70px;
+        top: -990px;
     }
-
+}
     .card-star {
         position: relative; 
         height: auto;
-        bottom: 1283px; 
+        bottom: 1075px; 
         left: 45px; 
     }
 
@@ -697,11 +675,5 @@
         height: auto; 
     }
 
-    .button2 {
-        position: relative;
-        left: -70px;
-        bottom: 1200px;
-        text-align: center;
-        z-index: 2;
-    }
+    
 

@@ -11,10 +11,12 @@
     border-radius: 20px;
     background-color: #40153661;
     position: absolute;
-    top: 20vh;
+    top: 10vh;
     left: 12vw;
     opacity: 0;
     animation: slideAnimation 25s infinite;
+    box-shadow: 0 8px 15px #0000004d; 
+
 }
 
 .image1 img{

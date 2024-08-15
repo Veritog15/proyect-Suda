@@ -1,23 +1,8 @@
-.container {
-    background-color: black;
-    width: auto;
-    height: 8vh;
-    padding-top: 20px; 
-    position: relative;
-    z-index: 3;
-}
-
 .mainContainer {
     background-color: #3D002F;
     width: 100vw;
     height: 280vh;
-    position: relative; 
-}
-
-.secondContainer {
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
+    position: relative;
 }
 
 .thirdContainer {
@@ -62,33 +47,18 @@
     height: 40vh; 
 }
 
-.logo img {
-    width: 25vw;
-    height: auto;
-    display: flex;
-}
-
-.menu img {
-    width: 7vw;
-    height: auto;
-    display: flex;
-}
-
 .Background img {
     width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 1; 
+    z-index: 1;     
 }
 
-.logo {
-    margin-right: auto; 
-}
 
 .button {
-    top: 69vh;
+    top: 78vh;
     left: -2vw; 
     position: relative; 
     z-index: 3; 

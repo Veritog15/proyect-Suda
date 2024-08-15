@@ -3,6 +3,7 @@
     width: 100vw;
     height: 400vh;
     position: relative;
+    margin: -5px;
 }
 
 .logo img{

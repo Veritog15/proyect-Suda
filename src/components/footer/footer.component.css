@@ -1,110 +1,164 @@
-footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-family: 'IBM Plex Sans', 'Roboto Slab', 'Orienta';
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    box-sizing: border-box;
+.container{
+    background-color: #000000;
+    width: 100vw;
+    height: 90vh;
+    position: absolute;
+    margin: -1px;
+    margin-top: 90vh;
 }
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-wrap: nowrap;
+.title h1{
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 20px;
+    top: 5vh;
+    left: 13vw; 
 }
 
-.footer-logo h1 {
-    font-size: 35px;
-    margin: 0;
-    font-weight: bold;
-    font-style: italic;
+.text1 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 10vh; 
 }
 
-.footer-links-container {
-    display: flex;
-    align-items: center;
+.text2 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 14vh; 
 }
 
-.footer-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 150px;
+.text3 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 13vw;
+    top: 18vh; 
 }
 
-.footer-links li {
-    font-weight: bold;
-    margin-top: 20px;
-    margin-bottom: 30px;
+.text4 P{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 16vw;
+    top: 22vh; 
 }
 
-.footer-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
+.text5 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 13px;  
+    left: 16vw;
+    top: 25vh; 
 }
 
-.footer-links a:hover {
-    text-decoration: underline;
+.title2 h1{
+    position: absolute;
+    text-align: left;
+    color: #fff;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 20px;
+    top: 5vh;
+    left: 60vw; 
 }
 
-.social-links {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-    align-items: flex-start;
+.text6 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 60vw;
+    top: 10vh; 
 }
 
-.social-links a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: normal;
+.text7 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 60vw;
+    top: 14vh; 
 }
 
-.social-links a:hover {
-    text-decoration: underline;
+.text8 p{
+    position: absolute;
+    color: #fff;
+    text-align: left;
+    font-family: 'IBM Plex Sans', 'Roboto Slab' , 'Orienta'; 
+    font-size: 15px;  
+    left: 60vw;
+    top: 18vh; 
 }
 
-@media (max-width: 768px) {
-    .footer-content {
-        flex-direction: column;
-        align-items: center;
-    }
+.line{
+    width: 85vw;
+    height: 0.2vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 37vh;
+    left: 8vw;   
+}
 
-    .footer-links-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
+.logo-suda img{
+    position: absolute;
+    left: 10vw;
+    top: 40vh;
+}
 
-    .footer-links {
-        flex-direction: column;
-        gap: 20px;
-    }
+.line2{
+    width: 85vw;
+    height: 0.2vh;
+    border-radius: 10px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 80vh;
+    left: 8vw;   
+}
 
-    .footer-logo h1 {
-        font-size: 28px;
-    }
+.icon-what{
+    position: absolute;
+    left: 25vw;
+    top: 83vh;
+}
 
-    .footer-links li {
-        margin: 10px 0;
-    }
+.icon-face{
+    position: absolute;
+    left: 35vw;
+    top: 83vh;
+}
 
-    .footer-links a, .social-links a {
-        font-size: 16px;
-    }
+.icon-insta{
+    position: absolute;
+    left: 45vw;
+    top: 83vh;
+}
 
-    .social-links {
-        align-items: center;
-    }
+.icon-tiktok{
+    position: absolute;
+    left: 55vw;
+    top: 83vh;
+}
+
+.icon-link{
+    position: absolute;
+    left: 65vw;
+    top: 83vh;
 }

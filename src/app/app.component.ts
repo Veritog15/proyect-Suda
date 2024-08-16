@@ -8,11 +8,12 @@ import { HeadComponent } from '../components/head/head.component';
 import { HomeComponent } from "./pages/home/home.component";
 import { InformationComponent } from './pages/information/information.component';
 import { ThematicComponent } from './pages/thematic/thematic.component';
+import { MenuComponent } from '../components/menu/menu.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, FooterComponent, ScrollComponent, HeadComponent, CarouselimgComponent, HeadComponent, HomeComponent, InformationComponent,ThematicComponent],
+  imports: [RouterOutlet, NavbarComponent, FooterComponent, ScrollComponent, HeadComponent, CarouselimgComponent, HeadComponent, HomeComponent, InformationComponent,ThematicComponent, MenuComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
